@@ -1,17 +1,37 @@
 package dev.jinkim.googlemapsdemo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class GoogleMapsDemo extends Activity {
+
+    private Button btnMaps;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_google_maps_demo);
+
+        btnMaps = (Button) findViewById(R.id.btn_maps);
+
+        btnMaps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                launchMaps();
+
+            }
+        });
+    }
+
+    private void launchMaps() {
+        Intent in = new Intent(this, MapsActivity.class);
+        startActivity(in);
     }
 
 
