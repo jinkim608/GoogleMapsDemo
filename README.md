@@ -6,4 +6,4 @@ Simple example of implementing Google Maps API on Android using Android Studio 0
 
 ![Screenshot](./screenshot/00.png)
 
-![Screenshot](./screenshot/01.png =300x)
+![](./screenshot/01.png =300x)
