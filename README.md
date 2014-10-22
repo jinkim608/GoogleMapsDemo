@@ -9,7 +9,7 @@ Android Studio 0.8.10
 Project min SDK version was API 15 (4.0.3 ICS)
 Tested on my GS4 device on 4G network.
 
+<img src='https://raw.github.com/jinkim608/GoogleMapsDemo/master/screenshot/00.png' alt='screenshot00' style='width=500px'>
 
-![Screenshot](./screenshot/00.png)
 
-![Screenshot](./screenshot/01.png)
+<img src='https://raw.github.com/jinkim608/GoogleMapsDemo/master/screenshot/01.png' alt='screenshot01' style='width=500px'>
